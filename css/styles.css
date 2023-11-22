@@ -1,0 +1,131 @@
+.main-links{
+  background-color: #ff7500;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  }
+.header-style{
+  background-color: #fff;
+  width: 1100px;
+}
+.sitenav-list{
+  list-style: none;
+}
+.book-page{
+width: 1440px;
+height: 488px;
+background-color: #252420;
+}
+.sitenav-link{
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.hero{
+  background-color: #252420;
+  color: #fff;
+}
+.hero-text{
+  width: 387 px;
+  color: #fff;
+  font-size: 16px;}
+.hero-content{
+width: 390px;
+color: #ffffff;
+}
+.hero-line{
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+.hero-img{
+  width: 510px;
+  height: 510px;
+}
+.hero-heading{
+  font-style: 40px;
+  line-height: 1.2;
+}
+.feature-line{
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+.feature{
+  width: 1440px;
+  height: 936px;
+  background-color: #fff;
+}
+.feature-name{
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+.icon-wrapper{
+  width: 340px;
+}
+.feature-icon-wrapper{
+width: 100px;
+height: 100px;
+background-color: rgba(255, 117, 0, 0.20);
+}
+.feature-title{
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.feature-info{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.aksiya-bg{
+  background-color: #252420;
+  color: #fff;
+}
+.akiya-content{
+  width: 440px;
+}
+.aksiya-heading{
+  font-size: 40px;
+  line-height: 48px;
+}
+.aksiya-info{
+  font-style: 16px;
+  line-height: 1.5;
+}
+.aksiya-highlight{
+  color: #ff7500;
+}
+.aksiya-img{
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+.site-footer{
+  background: #f8f8f8;
+}
+.site-footer ul{
+  list-style: none;
+}
+.link-border{
+  background-color: rgba(37, 36, 32, 0.50);
+  height: 2px;
+}
+.site-footer-links{
+  width: 224px;
+}
+.site-footer-links a{
+  font-style: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #252420;
+}
