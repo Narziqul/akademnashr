@@ -14,13 +14,17 @@ body{
   font-weight: 700;
   text-decoration: none;
   }
-.header-style{
-  background-color: #fff;
-  width: 1100px;
+.site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-/* HERO */
+.site-header-actions{
+  display: flex;
+  align-items: center;
+}
 .sitenav-list{
+  display: flex;
   list-style: none;
 }
 .book-page{
@@ -36,9 +40,14 @@ background-color: #252420;
   letter-spacing: 1px;
   text-decoration: none;
 }
+
+/* Hero */
 .hero{
   background-color: #252420;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .hero-text{
   width: 387 px;
@@ -79,8 +88,13 @@ color: #ffffff;
   font-size: 72px;
   line-height: 120%;
 }
+.feature-icons{
+  display: flex;
+  justify-content: space-between;
+}
 .icon-wrapper{
   width: 340px;
+  list-style: none;
 }
 .feature-icon-wrapper{
 width: 100px;
@@ -95,6 +109,9 @@ background-color: rgba(255, 117, 0, 0.20);
 
 /* AKSIYA */
 .aksiya-bg{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -122,9 +139,22 @@ background-color: rgba(255, 117, 0, 0.20);
 .site-footer ul{
   list-style: none;
 }
+.site-footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.messengers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .link-border{
   background-color: rgba(37, 36, 32, 0.50);
   height: 2px;
+}
+.footer-links{
+  display: flex;
 }
 .site-footer-links{
   width: 224px;

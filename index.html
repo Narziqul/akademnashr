@@ -16,20 +16,22 @@
 
   <!-- SITE HEADER -->
 
-  <header class="header-style">
+  <header class="site-header">
     <a href="index.html">
       <img src="img/logo.svg"  alt="Pyton kitob rasmi" >
     </a>
-
-    <nav>
-      <ul class="sitenav-list">
-        <li ><a class="sitenav-link" href="index.html">BOSH SAHIFA</a></li>
-        <li ><a class="sitenav-link" href="#">KITOBLAR</a></li>
-        <li ><a class="sitenav-link" href="#">AKSIYALAR</a></li>
-        <li ><a class="sitenav-link" href="#">KONTAKTLAR</a></li>
-      </ul>
-    </nav>
-    <a href="#" class="main-links">RO`YXATDAN O`TISH</a>
+    <div class="site-header-actions">
+      <!-- SITE-NAV -->
+      <nav>
+        <ul class="sitenav-list">
+          <li ><a class="sitenav-link" href="index.html">BOSH SAHIFA</a></li>
+          <li ><a class="sitenav-link" href="#">KITOBLAR</a></li>
+          <li ><a class="sitenav-link" href="#">AKSIYALAR</a></li>
+          <li ><a class="sitenav-link" href="#">KONTAKTLAR</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="main-links">RO`YXATDAN O`TISH</a>
+    </div>
   </header>
 
 
@@ -50,7 +52,7 @@
     <section class="feature">
       <hr class="feature-line">
       <h2 class="feature-name">Nega aynan <br>Akademnashr?</h2>
-      <ul>
+      <ul class="feature-icons">
         <li class="icon-wrapper">
           <div class="feature-icon-wrapper"><img src="img/Icon.svg" alt="buyurtma berish rasm" width="56" height="56" ></div>
           <h3 class="feature-title">Oson buyurtma qilish</h3>
@@ -84,27 +86,28 @@
   <!-- FOOTER -->
   <footer class="site-footer">
 
-    <a href="index.html">
-      <img src="img/logo.svg" alt="Akademnashr logo">
-    </a>
-
-    <ul>
-      <li>
-        <a href="https://t.me/Akademnashr" target="_blank">
-          <img src="img/icon-telegram.svg" alt="telegram logo">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/Akademnashr/?locale=ru_RU" target="_blank">
-          <img src="img/icon-facebook.svg" alt="">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/akademnashr/" target="_blank">
-          <img src="img/icon-instagram.svg" alt="instagram logo">
-        </a>
-      </li>
-      </ul>
+    <div class="site-footer-top">
+      <a href="index.html">
+        <img src="img/logo.svg" alt="Akademnashr logo">
+      </a>
+      <ul class="messengers">
+        <li>
+          <a href="https://t.me/Akademnashr" target="_blank">
+            <img src="img/icon-telegram.svg" alt="telegram logo">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/Akademnashr/?locale=ru_RU" target="_blank">
+            <img src="img/icon-facebook.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/akademnashr/" target="_blank">
+            <img src="img/icon-instagram.svg" alt="instagram logo">
+          </a>
+        </li>
+        </ul>
+    </div>
 
 
 
@@ -112,7 +115,7 @@
       <!-- LINKLAR -->
 
         <hr class="link-border">
-      <section >
+      <section class="footer-links" >
         <ul class="site-footer-links">
           <li><a href="index.html">Bosh sahifa</a></li>
           <li><a href="#">Kitoblar</a></li>
